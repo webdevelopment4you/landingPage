@@ -1,0 +1,448 @@
+.attribution 
+{
+     font-size: 11px; text-align: center; 
+}
+.attribution a 
+{ 
+    color: hsl(228, 45%, 44%); 
+}
+
+.navbar-default
+{
+    background-image: linear-gradient(to bottom,#fff 0,#ffffff 100%);
+    /* border:1px solid green; */
+    box-shadow:none;
+    border:none;
+}
+
+@media screen and (min-width:768px)
+{
+.navbar-header 
+{
+    padding-bottom: 2%;
+    /* border:1px solid red; */
+    margin-left:4%;
+    padding-bottom: 4%;
+    padding-top: 3%;
+}
+}
+
+
+@media screen and (max-width:769px)
+{
+    .navbar-header
+    {
+        padding-bottom:7%;
+        /* border:1px solid red; */
+        padding-top: 7%;
+    }
+}
+
+@media screen and (min-width:768px)
+{
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        border-color: #e7e7e7;
+        padding-top: 3%;
+        margin-right:2%;
+        font-size: 15px;
+        /* border: 1px solid red; */
+    }
+}
+
+.navbar-default .navbar-toggle 
+{
+    margin-top: 6%;
+}
+
+li a
+{
+/* border: 1px solid yellow; */
+}
+
+@media screen and (min-width:769px)
+{
+.leftFirst
+{
+    /* border: 1px solid red; */
+    margin-top: 3%;
+    margin-left: 1%;
+    width: 49%;
+}
+}
+
+@media screen and (max-width:768px)
+{
+.leftFirst
+{
+    /* border:1px solid red; */
+    width:100%;
+}
+}
+
+
+.rightFirst
+{
+    /* border:1px solid red; */
+}
+
+
+
+.row
+{
+   /* border: 1px solid blue; */
+}
+
+header
+{
+    /* border:1px solid blueviolet; */
+}
+
+.heading
+{
+    /* border: 1px solid yellow; */
+    font-size: 35px;
+    color:hsl(243, 87%, 12%);
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.content
+{
+    /* border: 1px solid yellow; */
+    font-family: 'Roboto', sans-serif;
+    font-size:25px;
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width:768px)
+{
+    .heading
+{
+    text-align: center;
+    font-size: 21px;
+    margin-top: 9%;
+}
+
+.content
+{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 21px;
+}
+}
+
+
+.illustOne
+{
+
+}
+
+.form-control
+{
+width: 58%;
+display: inline-block;
+height:41px;
+}
+
+.middleFormControl
+{
+    width:100%;
+    display: inline-block;
+    height:41px;
+}
+
+@media screen and (max-width:768px)
+{
+    .form-control
+        {
+        width: 100%;
+        display: inline-block;
+        height:41px;
+        margin-top: 21px;
+        }
+}
+
+#firstButton
+{
+    margin-left: 2%;
+    padding: 10px 50px;
+    background-color: #003cffb5;
+    color:#ffffff;
+    border:none;
+    border-radius: 3px;
+}
+
+@media screen and (max-width:768px)
+{
+    #firstButton
+    {
+        width:100%;
+        margin-left: 0px;
+        margin-top:10px;
+    }
+}
+
+@media screen and (min-width:769px)
+{
+.background
+{
+background-image: url("../images/bg-curve-desktop.svg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: fit-content;
+padding-bottom: 5%;
+}
+}
+
+@media screen and (max-width:768px)
+{
+.background
+{
+background-image: url("../images/bg-curve-mobile.svg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: fit-content;
+padding-bottom: 13%;
+}
+.illustTwo
+{
+    margin-top:5%;
+}
+}
+
+@media screen and (min-width:769px)
+{
+    .illustTwo
+    {
+    margin-top: 29%;
+    }
+}
+
+.middle
+{
+    /* border:1px solid blueviolet; */
+    margin-top: 9%;
+}
+
+.secondContent
+{
+    margin-top: 5%;
+}
+
+#middleLink
+{
+    color: #62b2a4;
+    letter-spacing: 1px;
+    font-size: 150%;
+    text-decoration: underline;
+
+}
+
+@media screen and (max-width:768px)
+{
+    .wrapper
+    {
+        text-align: center;
+    }
+}
+
+#arrow
+{
+    margin-bottom: 4px;
+    width: 4%;
+}
+
+.card
+{
+    width: 56%;
+    /* border: 1px solid yellow; */
+    margin-top: 6%;
+    font-size: 124%;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 19px -8px;
+    border-radius: 4px;
+    padding: 11px;
+}
+
+@media screen and (max-width:768px)
+{
+    .card
+    {
+        width:100%;
+        padding:5%;
+        text-align: initial;
+    }
+}
+
+#avatar
+{
+    width:10%;
+}
+
+#nameTag
+{
+    font-size: 69%;
+    margin-left: 10%;
+}
+
+.belowFirst
+{
+    background-color: hsl(238, 22%, 44%);
+}
+
+@media screen and (max-width:768px)
+{
+    .belowFirst
+    {
+    padding-bottom: 10%;
+    }
+}
+
+.belowHeading,.belowContent
+{
+    color:#ffffff;
+
+}
+.belowHeading
+{
+    margin-top: 10%;
+}
+.belowContent
+{
+    font-size: 124%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+@media screen and (min-width:769px)
+{
+.headForm
+{
+    margin: 17% 0% 10% 0%;
+}
+.middleForm
+{
+    margin:17% 0% 10% 30%;
+}
+}
+
+@media screen and (max-width:768px)
+{
+form
+{
+    margin:none;
+    width:100%;
+}
+}
+
+#secondButton
+{
+    padding: 10px 50px;
+    background-color: #003cffb5;
+    color:#ffffff;
+    border:none;
+    border-radius: 3px;
+}
+
+@media screen and (max-width:768px)
+{
+    #secondButton
+    {
+        width:100%;
+        margin-left: 0px;
+        margin-top:10px;
+    }
+}
+
+.belowSecond
+{
+    background-color: hsl(243, 87%, 12%);
+    color:#ffffff;
+    padding: 4% 0% 4% 0%;
+
+}
+
+@media screen and (max-width:768px)
+{
+    .belowSecond
+{
+    padding: 4% 0% 4% 7%;
+
+}
+}
+
+.footerCat a
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 120%;
+    color:#ffffff;
+}
+
+.category
+{
+    margin-top: 5%;
+}
+
+.logo:hover
+{
+    fill:#ffffff;
+}
+
+.icons
+{
+
+    margin-top: 5%;
+}
+.facebook
+{
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    padding: 9px 11px;
+}
+.twitter
+{
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    padding: 9px;
+    margin-left: 11px;
+}
+.instagram
+{
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    padding: 9px;
+    margin-left: 11px;
+}
+
+@media screen and (max-width:768px)
+{
+    #categoryTwo
+    {
+    margin-top: 12%;
+    }
+
+    #categoryOne
+    {
+        margin-top:12%;
+    }
+}
+
+.iconLink
+{
+    color:#ffffff;
+}
+.iconLink:hover
+{
+    color:#ffffff;
+}
+.iconLink:visited
+{
+    color:#ffffff;
+}
+/* .below
+{
+    border:1px solid blueviolet;
+} */
